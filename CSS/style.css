@@ -16,6 +16,7 @@ button {
 .navbar {
     background-color: #ffcb3d;
 }
+
 /*end navbar-----------------------------------------------------------*/
 
 /*BANNER START---------------------------------------------------------*/
@@ -26,15 +27,15 @@ button {
     left: 0;
     width: 100%;
     height: 99%;
-  
+
 }
 
 .overlay h1 {
     color: white;
-    font-size: 8vw; 
-    font-weight: bold; 
-    margin: 0; 
-    padding: 20px; 
+    font-size: 8vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
     text-align: left;
     line-height: auto;
 
@@ -45,68 +46,106 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-       
+
     }
+
     .overlay h1 {
         font-size: 45px;
-       
+
     }
-  
+
 }
 
 /*END BANNER ----------------------------------------------------*/
 
 /*START DESCRIPTION ---------------------------------------------*/
-#description{
+#description {
     padding-top: 50px;
     padding-bottom: 100px;
 }
-#title-home h1{
+
+#title-home h1 {
     font-size: 4em;
     color: #6659db;
 }
-#title-description button{
+
+#title-description button {
     background-color: #6659db;
 }
 
-#title-description button:hover{
+#title-description button:hover {
     scale: 1.1;
     background-color: #231c5c;
     transition: 0.4s;
 }
-#title-description a{
+
+#title-description a {
     text-decoration: none;
 }
+
 /*END DESCRIPTION----------------------------------------------------*/
 
 /*FIGURES  START-----------------------------------------------------*/
-#figures  {
+#figures {
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
- }
+}
+
+#bennefits {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#bennefits h2 {
+    color: #6659db;
+    font-size: 4em;
+   
+}
+
+#bennefits h3 {
+    color: #231a79;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#card1, #card2, #card3 {
+    background-color: #dbffea;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 /*END FIGURES---------------------------------------------------------*/
 
 /*TAX START-----------------------------------------------------------*/
-#tax{
+#tax {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #fff8ed;
 }
-.tax-title-container{
+
+.tax-title-container {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.tax-title{
+
+.tax-title {
     width: 80%;
 }
-.tableContainer{
+
+.tableContainer {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.tableContainer table{  
+
+.tableContainer table {
     width: 80%;
     font-weight: bold;
 }
@@ -114,24 +153,26 @@ button {
 /*TAX END--------------------------------------------------------------*/
 
 /*START FORM-----------------------------------------------------------*/
-#formContainer{
+#formContainer {
     background-color: #d2a6ff;
-   
+
     padding-top: 100px;
     padding-bottom: 100px;
 
 }
 
-#formServices{
+#formServices {
     border-radius: 20px;
 }
+
 /*END FORM-------------------------------------------------------------*/
 
 /*FOOTER-----------------------------------------------------------------*/
-footer{
+footer {
     background-color: #ffcb3d;
 }
-footer p{
+
+footer p {
     margin: 0%
 }
 
