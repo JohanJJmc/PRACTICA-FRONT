@@ -11,12 +11,10 @@ button {
     border: 0;
     border-radius: 6px;
 }
-
 /*star navbar----------------------------------------------------------*/
 .navbar {
     background-color: #ffcb3d;
 }
-
 /*end navbar-----------------------------------------------------------*/
 
 /*BANNER START---------------------------------------------------------*/
@@ -27,7 +25,6 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-
 }
 
 .overlay h1 {
@@ -39,7 +36,6 @@ button {
     text-align: left;
     line-height: auto;
 }
-
 #carrousel .carousel-inner .carousel-item .position-relative{
     height: 42vw;
 }
@@ -48,9 +44,8 @@ button {
     transform: translateY(-50%);
     background-color: #050018;
     width: 40px;
-    height: 40px;   
+    height: 40px;  
 }
-
 .carousel-indicators {
     bottom: 20px;
 }
@@ -73,69 +68,63 @@ button {
         margin: 0%;
         padding-top: 30px;
     }
-
 }
-
 /*END BANNER ----------------------------------------------------*/
 
 /*START DESCRIPTION ---------------------------------------------*/
 #description {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 
 #title-home h1 {
     font-size: 4em;
     color: #6659db;
-    padding-right: 100px;
+    padding-right: 4vw;
+
 }
 
-#title-description p{
-    padding-right: 2vw;
+#title-description p {
+    padding-right: 4vw;
+    padding-left: 4vw;
 }
 
 #title-description button {
     background-color: #6659db;
+    border: none;
+    margin-left: 4vw;
 }
 
-
 #title-description button:hover {
-    scale: 1.1;
+    transform: scale(1.1);
     background-color: #231c5c;
-    transition: 0.4s;
+    transition: transform 0.4s;
 }
 
 #title-description a {
     text-decoration: none;
+    color: white;
 }
-
 /*END DESCRIPTION----------------------------------------------------*/
 
 /*FIGURES  START-----------------------------------------------------*/
 #figures {
     margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 #bennefits {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 #bennefits h2 {
     color: #6659db;
     font-size: 4em;
-   
 }
-
 #bennefits h3 {
     color: #231a79;
     font-size: 2em;
     font-weight: bold;
 }
-
-
 #card1, #card2, #card3 {
     background-color: #dbffea;
     border-radius: 16px;
@@ -145,7 +134,6 @@ button {
     padding-left: 60px;
     padding-right: 60px;
 }
-
 /*END FIGURES---------------------------------------------------------*/
 
 /*TAX START-----------------------------------------------------------*/
@@ -154,52 +142,41 @@ button {
     padding-bottom: 50px;
     background-color: #fff8ed;
 }
-
 .tax-title-container {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
 .tax-title {
     width: 80%;
 }
-
 .tableContainer {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
 .tableContainer table {
     width: 80%;
     font-weight: bold;
 }
-
 /*TAX END--------------------------------------------------------------*/
 
 /*START FORM-----------------------------------------------------------*/
 #formContainer {
     background-color: #d2a6ff;
-
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
-
 #formServices {
     border-radius: 20px;
 }
-
 /*END FORM-------------------------------------------------------------*/
 
 /*FOOTER-----------------------------------------------------------------*/
 footer {
     background-color: #ffcb3d;
 }
-
 footer p {
     margin: 0%
 }
-
 /*FOOTER END-----------------------------------------------------------------*/
