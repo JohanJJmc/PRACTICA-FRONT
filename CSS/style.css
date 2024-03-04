@@ -32,14 +32,12 @@ button {
 
 .overlay h1 {
     color: white;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bold;
     margin: 0;
     margin-left: 100px;
-   
     text-align: left;
     line-height: auto;
-
 }
 
 #carrousel .carousel-inner .carousel-item .position-relative{
@@ -50,25 +48,30 @@ button {
     transform: translateY(-50%);
     background-color: #050018;
     width: 40px;
-    height: 40px;
-   
-    
+    height: 40px;   
 }
 
 .carousel-indicators {
     bottom: 20px;
 }
 @media (max-width: 767px) {
+    
+    #carrousel .col-md-12 .col-lg-9{
+        justify-content: center;
+    }
+    .carousel-indicators{
+        display: none;
+    }   
     .overlay {
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-
     .overlay h1 {
-        font-size: 45px;
-
+        font-size: 6vw;
+        text-align: center;
+        margin: 0%;
+        padding-top: 30px;
     }
 
 }
