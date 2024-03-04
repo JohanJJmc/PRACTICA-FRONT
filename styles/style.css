@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    width: auto;
+    height: 36px;
+    background-color: #6659db;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+}
+
+/*star navbar----------------------------------------------------------*/
+.navbar {
+    background-color: #ffcb3d;
+}
+/*end navbar-----------------------------------------------------------*/
+
+/*BANNER START---------------------------------------------------------*/
+.overlay {
+    background-color: #7a3dffb4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+  
+}
+
+.overlay h1 {
+    color: white;
+    font-size: 8vw; 
+    font-weight: bold; 
+    margin: 0; 
+    padding: 20px; 
+    text-align: left;
+    line-height: auto;
+
+}
+
+@media (max-width: 767px) {
+    .overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .overlay h1 {
+        font-size: 45px;
+       
+    }
+  
+}
+
+/*END BANNER ----------------------------------------------------*/
+
+/*START DESCRIPTION ---------------------------------------------*/
+#description{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#title-home h1{
+    font-size: 4em;
+    color: #6659db;
+}
+#title-description button{
+    background-color: #6659db;
+}
+
+#title-description button:hover{
+    scale: 1.1;
+    background-color: #231c5c;
+    transition: 0.4s;
+}
+#title-description a{
+    text-decoration: none;
+}
+/*END DESCRIPTION----------------------------------------------------*/
+
+/*FIGURES  START-----------------------------------------------------*/
+#figures  {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+/*END FIGURES---------------------------------------------------------*/
+
+/*TAX START-----------------------------------------------------------*/
+#tax{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff8ed;
+}
+.tax-title-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.tax-title{
+    width: 80%;
+}
+.tableContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.tableContainer table{  
+    width: 80%;
+    font-weight: bold;
+}
+
+/*TAX END--------------------------------------------------------------*/
+
+/*START FORM-----------------------------------------------------------*/
+#formContainer{
+    background-color: #d2a6ff;
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+/*END FORM-------------------------------------------------------------*/
+
+/*FOOTER-----------------------------------------------------------------*/
+footer{
+    background-color: #ffcb3d;
+}
+footer p{
+    margin: 0%
+}
+
+/*FOOTER END-----------------------------------------------------------------*/
