@@ -21,7 +21,7 @@ button {
 
 /*BANNER START---------------------------------------------------------*/
 .overlay {
-    background-color: #7a3dffb4;
+    background-color: #7a3dffe8;
     position: absolute;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ button {
 
 .overlay h1 {
     color: white;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: bold;
     margin: 0;
     padding: 20px;
@@ -40,7 +40,18 @@ button {
     line-height: auto;
 
 }
+.carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #050018;
+    width: 60px;
+    height: 60px;
+    
+}
 
+.carousel-indicators {
+    bottom: 20px;
+}
 @media (max-width: 767px) {
     .overlay {
         display: flex;
