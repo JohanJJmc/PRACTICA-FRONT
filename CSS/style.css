@@ -67,11 +67,17 @@ button {
 #title-home h1 {
     font-size: 4em;
     color: #6659db;
+    padding-right: 100px;
+}
+
+#title-description p{
+    padding-right: 2vw;
 }
 
 #title-description button {
     background-color: #6659db;
 }
+
 
 #title-description button:hover {
     scale: 1.1;
