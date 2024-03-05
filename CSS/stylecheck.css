@@ -10,3 +10,7 @@ body{
     position: end;
     margin-left: 8vw;
 }
+
+#titleCancel{
+    color: rgb(228, 145, 68);
+}
