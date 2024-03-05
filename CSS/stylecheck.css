@@ -1,3 +1,12 @@
 body{
     background-color: rgb(240, 240, 240);
 }
+
+#checkout{
+    margin-bottom: 100px;
+}
+
+#btnEnviar{
+    position: end;
+    margin-left: 8vw;
+}
