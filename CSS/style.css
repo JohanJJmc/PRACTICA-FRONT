@@ -109,6 +109,23 @@ button {
 
 /*FIGURES  START-----------------------------------------------------*/
 
+#figures h6{
+    color: #6659db;
+}
+
+#figures h5{
+    font-weight: bold;
+}
+
+#figures img{
+    max-height: 250px;
+}
+
+#figures .card:hover{
+    box-shadow: rgba(85, 85, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px ;
+    transition: 0.4s;
+}
+
 #bennefits {
     padding-top: 100px;
     padding-bottom: 100px;
