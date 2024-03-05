@@ -118,7 +118,11 @@ button {
 }
 
 #figures img{
-    max-height: 250px;
+    max-height: 174.49px;
+}
+
+#figures .card{
+ max-width:350px ;
 }
 
 #figures .card:hover{
