@@ -108,9 +108,6 @@ button {
 /*END DESCRIPTION----------------------------------------------------*/
 
 /*FIGURES  START-----------------------------------------------------*/
-#figures {
-    margin-bottom: 100px;
-}
 
 #bennefits {
     padding-top: 100px;
@@ -119,20 +116,19 @@ button {
 #bennefits h2 {
     color: #6659db;
     font-size: 4em;
+    margin-bottom: 100px;
 }
 #bennefits h3 {
     color: #231a79;
-    font-size: 2em;
+    font-size: 2em auto;
     font-weight: bold;
 }
 #card1, #card2, #card3 {
     background-color: #dbffea;
     border-radius: 16px;
     margin-bottom: 30px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 2rem;
+    
 }
 /*END FIGURES---------------------------------------------------------*/
 
