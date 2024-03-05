@@ -125,7 +125,7 @@ button {
     box-shadow: rgba(85, 85, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px ;
     transition: 0.4s;
 }
-
+/*BENEFITS START--------------------------------------------------------*/
 #bennefits {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -184,6 +184,12 @@ button {
     border-radius: 20px;
 }
 /*END FORM-------------------------------------------------------------*/
+
+/*Modal Purchase start ------------------------------------------------*/
+.modal-header h1{
+    color: #6659db;
+}
+
 
 /*FOOTER-----------------------------------------------------------------*/
 footer {
